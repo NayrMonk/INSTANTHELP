@@ -1,0 +1,20 @@
+{
+    "version": "1.0",
+    "manifest_version": 3,
+    "name": "INSTANTHELP",
+    "description": "Helping students get instant answers",
+    "icons": {
+        "16": "/images/icon16.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png"
+    },
+    "action": {
+        "default_popup": "/src/popup.html",
+        "default_icon": {
+            "16": "/images/icon16.png",
+            "48": "/images/icon48.png",
+            "128": "/images/icon128.png"
+        }
+    },
+    "permissions": ["activeTab"]
+}
